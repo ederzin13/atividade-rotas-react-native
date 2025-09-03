@@ -9,6 +9,7 @@ export default function profile() {
         <View style={styles.container}>
             <Text style={styles.title}>Profile</Text>
             <Text style={styles.text}>Name: {name}</Text>
+            <Text style={styles.text}>Age: {age}</Text>
         </View>
     );
 }
